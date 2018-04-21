@@ -12,7 +12,7 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,
 
 vipro = LINETCR.LINE()
 #vipro.login(qr=True)
-vipro.login(token='Eskczlps9svERyZM4aa8.YI6INxCb6GvKDiuy0HfdEa.8UTYIvIeWqB6rKPPSV/z5bCeCxsz0Tlv6a+83X3+Ya8=')
+vipro.login(token='EsH2bq0BEUEw3KldoFV8.YI6INxCb6GvKDiuy0HfdEa.rAoHh5F8p1vFwMNb/1JSMlHU4siA5jpMgdLXE2LSmWM=')
 vipro.loginResult()
 print "Vipro-Login Success\n\n=====[Sukses Login]====="
 
@@ -147,7 +147,8 @@ groupMessage ="""
 ║    〽️ emreylcn 〽️
 ╚═════════════════════════
 """
-vip="uca2ea29d7701ea0564748518d2114378"
+vip="
+uca2ea29d7701ea0564748518d2114378"
 
 setMessage ="""
 ╔═════════════════════════
@@ -2351,7 +2352,8 @@ def bot(op):
                 vipro.inviteIntoGroup(msg.to,[midd])
 
             elif "Invite creator" in msg.text:
-                midd = "uca2ea29d7701ea0564748518d2114378"
+                midd = "
+uca2ea29d7701ea0564748518d2114378"
                 vipro.inviteIntoGroup(msg.to,[midd])
 
             elif msg.text in ["Welcome","welcome","Welkam","welkam","Wc","wc"]:
