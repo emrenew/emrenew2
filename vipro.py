@@ -2351,8 +2351,7 @@ def bot(op):
                 vipro.inviteIntoGroup(msg.to,[midd])
 
             elif "Invite creator" in msg.text:
-                midd = "
-uca2ea29d7701ea0564748518d2114378"
+                midd = "uca2ea29d7701ea0564748518d2114378"
                 vipro.inviteIntoGroup(msg.to,[midd])
 
             elif msg.text in ["Welcome","welcome","Welkam","welkam","Wc","wc"]:
