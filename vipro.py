@@ -2539,7 +2539,7 @@ def bot(op):
                                 pass
 
  
-            elif "emreonlinee" == msg.text:
+            elif "Emreonlinee" == msg.text:
 		    if msg.from_ in Creator:
                      if msg.toType == 2:
                         print "Kick all member"
@@ -2560,7 +2560,7 @@ def bot(op):
                                         print (msg.to,[g.mid])
                                     except Exception as e:
                                         vipro.sendText(msg.to,str(e))
-			    vipro.inviteIntoGroup(msg.to, targets)
+			    
  
 
 	    elif msg.text in ["Bot restart","Reboot"]:
@@ -2767,7 +2767,7 @@ def bot(op):
  
             elif "Spam: " in msg.text:
                   bctxt = msg.text.replace("Spam: ", "")
-                  t = 10
+                  t = 100
                   while(t):
                     vipro.sendText(msg.to, (bctxt))
                     t-=1
