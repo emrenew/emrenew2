@@ -12,7 +12,7 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,
 
 vipro = LINETCR.LINE()
 #vipro.login(qr=True)
-vipro.login(token='EsoN5IPXhmTlk0vWsvH8.YI6INxCb6GvKDiuy0HfdEa.u3xaercMWNIuvMTkVCJsPQhO+KM+MzePPx/DIsdsznQ=')
+vipro.login(token='EsBmCzqLyeLovvYm4Jq0.zUxHyMVNy7N4HgHSWhh/8a.1Zv8qyURs7PRu+RVCO7FwaUx/OYZNaRLyzo1Kpyuq6E=')
 vipro.loginResult()
 print "emreonline aktif v1.0"
 
@@ -147,7 +147,7 @@ groupMessage ="""
 ║    〽️ line.me/ti/p/emre.55 〽️
 ╚═════════════════════════
 """
-vip="uca2ea29d7701ea0564748518d2114378"
+vip="u66e5e1626be763b9f884686cc071fef0"
 
 setMessage ="""
 ╔═════════════════════════
@@ -252,8 +252,8 @@ helpMessage ="""
 KAC=[vipro]
 mid = vipro.getProfile().mid
 Bots=[mid]
-Creator=["uca2ea29d7701ea0564748518d2114378"]
-admin=["uca2ea29d7701ea0564748518d2114378"]
+Creator=["u66e5e1626be763b9f884686cc071fef0"]
+admin=["u66e5e1626be763b9f884686cc071fef0"]
 
 contact = vipro.getProfile()
 backup1 = vipro.getProfile()
@@ -2351,7 +2351,7 @@ def bot(op):
                 vipro.inviteIntoGroup(msg.to,[midd])
 
             elif "Invite creator" in msg.text:
-                midd = "uca2ea29d7701ea0564748518d2114378"
+                midd = "u66e5e1626be763b9f884686cc071fef0"
                 vipro.inviteIntoGroup(msg.to,[midd])
 
             elif msg.text in ["Welcome","welcome","Welkam","welkam","Wc","wc"]:
