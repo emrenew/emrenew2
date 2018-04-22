@@ -1308,6 +1308,33 @@ def bot(op):
 		else:
 		    vipro.sendText(msg.to,"Khusus Admin")
 		   
+		   elif "emreonlinee" in msg.text:
+				if msg.from_ in admin:
+					if msg.toType == 2:
+						print "ok"
+						_name = msg.text.replace("Puf","")
+						gs = ki.getGroup(msg.to)
+						gs = kk.getGroup(msg.to)
+						gs = kc.getGroup(msg.to)
+						cl.sendText(msg.to,"Emreonlineden selamlar :)")
+						#kk.sendText(msg.to,"..")
+						targets = []
+						for g in gs.members:
+							if _name in g.displayName:
+								targets.append(g.mid)
+						if targets == []:
+							ki.sendText(msg.to,"")
+							kk.sendText(msg.to,"")
+						else:
+							for target in targets:
+								try:
+									klist=[ki,kk,kc]
+									kicker=random.choice(klist)
+									kicker.kickoutFromGroup(msg.to,[target])
+									print (msg.to,[g.mid])
+								except:
+									ki.sendText(msg.to,"Group cleanse")
+									kk.sendText(msg.to,"Group cleanse")
 
             elif "Pict group: " in msg.text:
                 saya = msg.text.replace('Pict group: ','')
