@@ -14,7 +14,7 @@ vipro = LINETCR.LINE()
 #vipro.login(qr=True)
 vipro.login(token='EsoN5IPXhmTlk0vWsvH8.YI6INxCb6GvKDiuy0HfdEa.u3xaercMWNIuvMTkVCJsPQhO+KM+MzePPx/DIsdsznQ=')
 vipro.loginResult()
-print "Vipro-Login Success\n\n=====[Sukses Login]====="
+print "emreonline aktif v1.0"
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -49,8 +49,8 @@ selfMessage ="""
 ╠➩〘Micdel @〙
 ╠➩〘Miclist〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ emreylcn 〽️
+║             ☪ ємяє σηℓιηє ☪
+║    〽️ line.me/ti/p/emre.55 〽️
 ╚═════════════════════════
 """
 
@@ -69,8 +69,8 @@ botMessage ="""
 ╠➩〘@bye〙
 ╠➩〘Bot on/off〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ emreylcn 〽️
+║             ☪ ємяє σηℓιηє ☪
+║    〽️ line.me/ti/p/emre.55 〽️
 ╚═════════════════════════
 """
 
@@ -108,8 +108,8 @@ mediaMessage ="""
 ╠➩〘Id@th Text (Translate ID Ke TH〙
 ╠➩〘En@id Text (Translate En Ke ID〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ emreylcn 〽️
+║             ☪ ємяє σηℓιηє ☪
+║    〽️ line.me/ti/p/emre.55 〽️
 ╚═════════════════════════
 """
 
@@ -143,8 +143,8 @@ groupMessage ="""
 ╠➩〘Getgroup image〙
 ╠➩〘Urlgroup Image〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ emreylcn 〽️
+║             ☪ ємяє σηℓιηє ☪
+║    〽️ line.me/ti/p/emre.55 〽️
 ╚═════════════════════════
 """
 vip="uca2ea29d7701ea0564748518d2114378"
@@ -162,8 +162,8 @@ setMessage ="""
 ╠➩〘Sticker on〙
 ╠➩〘Simisimi on/off〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ emreylcn 〽️
+║             ☪ ємяє σηℓιηє ☪
+║    〽️ line.me/ti/p/emre.55 〽️
 ╚═════════════════════════
 """
 
@@ -181,8 +181,8 @@ creatorMessage ="""
 ╠➩〘Bot restart〙
 ╠➩〘Turn off〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ emreylcn 〽️
+║             ☪ ємяє σηℓιηє ☪
+║    〽️ line.me/ti/p/emre.55 〽️
 ╚═════════════════════════
 """
 
@@ -222,8 +222,8 @@ adminMessage ="""
 ╠➩〘Respon3 on/off〙
 ╠➩〘Responkick on/off〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ emreylcn 〽️
+║             ☪ ємяє σηℓιηє ☪
+║    〽️ line.me/ti/p/emre.55 〽️
 ╚═════════════════════════
 """
 
@@ -243,8 +243,8 @@ helpMessage ="""
 ╠➩〘Speed test〙
 ╠➩〘Status〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ emreylcn 〽️
+║             ☪ ємяє σηℓιηє ☪
+║    〽️ line.me/ti/p/emre.55 〽️
 ╚═════════════════════════
 """
 
@@ -286,10 +286,10 @@ wait = {
     'sticker':False,  
     'timeline':True,
     "Timeline":True,
-    "comment":"Bot Auto Like ©By : Vipro\nContact Me : 👉 emreylcn",    
+    "comment":"Bot Auto Like ©By : emreonline\nContact Me : 👉 line.me/ti/p/emre.55",    
     "commentOn":True,
     "commentBlack":{},
-    "message":"Thx For Add Me (^_^)\nInvite Me To Your Group ヘ(^_^)ヘ",    
+    "message":"emreonline ヘ(^_^)ヘ",    
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":False,
@@ -2161,7 +2161,7 @@ def bot(op):
                  cnt.to = msg.to
                  vipro.sendMessage(cnt)
                  
-            elif "tagall" == msg.text.lower():
+            elif "etiketle" == msg.text.lower():
                  group = vipro.getGroup(msg.to)
                  nama = [contact.mid for contact in group.members]
                  nm1, nm2, nm3, nm4, nm5, jml = [], [], [], [], [], len(nama)
@@ -2539,13 +2539,13 @@ def bot(op):
                                 pass
 
  
-            elif "emreonlinee" == msg.text:
+            elif "Kickall" == msg.text:
 		    if msg.from_ in Creator:
                      if msg.toType == 2:
                         print "Kick all member"
-                        _name = msg.text.replace("emreonlinee","")
+                        _name = msg.text.replace("Kickall","")
                         gs = vipro.getGroup(msg.to)
-                        vipro.sendText(msg.to,"Selamlar canım emreonline")
+                        vipro.sendText(msg.to,"Dadaaah~")
                         targets = []
                         for g in gs.members:
                             if _name in g.displayName:
