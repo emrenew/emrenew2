@@ -184,7 +184,7 @@ groupMessage ="""
 ║    〽️ line.me/ti/p/emre.55 〽️
 ╚═════════════════════════
 """
-vip="u66e5e1626be763b9f884686cc071fef0"
+vip="uca2ea29d7701ea0564748518d2114378"
 
 setMessage ="""
 ╔═════════════════════════
@@ -318,9 +318,9 @@ Cmid = kc.getProfile().mid
 Dmid = kr.getProfile().mid
 Emid = km.getProfile().mid
 Fmid = vipro.getProfile().mid
-Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,"u66e5e1626be763b9f884686cc071fef0"]
-Creator=["u66e5e1626be763b9f884686cc071fef0"]
-admin=["u66e5e1626be763b9f884686cc071fef0"]
+Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,"uca2ea29d7701ea0564748518d2114378"]
+Creator=["uca2ea29d7701ea0564748518d2114378"]
+admin=["uca2ea29d7701ea0564748518d2114378"]
 
 contact = cl.getProfile()
 backup1 = cl.getProfile()
@@ -1408,9 +1408,9 @@ def bot(op):
 		
             elif msg.text in ["Admin","admin"]:
                 msg.contentType = 13
-                admin1 = "u66e5e1626be763b9f884686cc071fef0"
-                admin2 = "u8b2bb5214c1afc77d06901a535c23e30"
-                admin3 = "u57a54b914085fea6f04c19f6fe589057"
+                admin1 = "uca2ea29d7701ea0564748518d2114378"
+                admin2 = "uca2ea29d7701ea0564748518d2114378"
+                admin3 = "uca2ea29d7701ea0564748518d2114378"
                 msg.contentMetadata = {'mid': vip}
                 random.choice(KAC).sendMessage(msg)
                 #msg.contentMetadata = {'mid': admin1}
@@ -2819,7 +2819,7 @@ def bot(op):
                 random.choice(KAC).inviteIntoGroup(msg.to,[midd])
 
             elif "Invite creator" in msg.text:
-                midd = "u66e5e1626be763b9f884686cc071fef0"
+                midd = "uca2ea29d7701ea0564748518d2114378"
                 random.choice(KAC).inviteIntoGroup(msg.to,[midd])
 
             elif msg.text in ["Welcome","welcome","Welkam","welkam","Wc","wc"]:
