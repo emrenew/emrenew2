@@ -1311,7 +1311,7 @@ def bot(op):
                  if wait["detectMention"] == True:
                      contact = cl.getContact(msg.from_)
                      cName = contact.displayName
-                     balas = ["Sekali lagi nge tag gw sumpahin jomblo seumur hidup!","Dont Tag!! Lagi Sibuk",cName + " Ngapain Ngetag?",cName + " Nggak Usah Tag-Tag! Kalo Penting Langsung Pc Aja","Tag Mulu Lo Anjirr!","Dia Lagi Off", cName + " Kenapa Tag? Kangen?","Dia Lagi Tidur\nJangan Di Tag " + cName, "Jangan Suka Tag Gua " + cName, "Kamu Siapa " + cName + "?", "Ada Perlu Apa " + cName + "?","Woii " + cName + " Jangan Ngetag, Riibut!"]
+                     balas = ["Şuan müsait degilim. Müsait oldugumda geri dönücem ben sana.","Şuan müsait degilim. Müsait oldugumda geri dönücem ben sana.",cName + " Şuan müsait degilim. Müsait oldugumda geri dönücem ben sana.",cName + " Şuan müsait degilim. Müsait oldugumda geri dönücem ben sana.", cName + " Şuan müsait degilim. Müsait oldugumda geri dönücem ben sana. " + cName, "Şuan müsait degilim. Müsait oldugumda geri dönücem ben sana. " + cName, "Şuan müsait degilim. Müsait oldugumda geri dönücem ben sana. " + cName + "?", "Şuan müsait degilim. Müsait oldugumda geri dönücem ben sana. " + cName + "?","Şuan müsait degilim. Müsait oldugumda geri dönücem ben sana. " + cName + " Şuan müsait degilim. Müsait oldugumda geri dönücem ben sana."]
                      ret_ = random.choice(balas)
                      name = re.findall(r'@(\w+)', msg.text)
                      mention = ast.literal_eval(msg.contentMetadata['MENTION'])

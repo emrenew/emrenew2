@@ -885,7 +885,7 @@ def bot(op):
                  if wait["detectMention2"] == True:          
                     contact = vipro.getContact(msg.from_)
                     cName = contact.displayName
-                    balas = ["Sekali lagi nge tag gw sumpahin jomblo seumur hidup!","Nggak Usah Tag-Tag! Kalo Penting Langsung Pc Aja","Woii " + cName + " Jangan Ngetag, Riibut!"]
+                    balas = ["Şuan müsait degilim. Müsait oldugumda geri dönücem ben sana.","Şuan müsait degilim. Müsait oldugumda geri dönücem ben sana.","Şuan müsait degilim. Müsait oldugumda geri dönücem ben sana. " + cName + " Şuan müsait degilim. Müsait oldugumda geri dönücem ben sana."]
                     ret_ = random.choice(balas)
                     name = re.findall(r'@(\w+)', msg.text)
                     mention = ast.literal_eval(msg.contentMetadata['MENTION'])
